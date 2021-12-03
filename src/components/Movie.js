@@ -5,7 +5,7 @@ function Movie({id, mediumCoverImage, title, year, summary, genres}){
     return (
         <>
           <img src={mediumCoverImage} alt={title}/>
-          <h2><Link to={`movie/${id}`}>{title}</Link></h2>
+          <h2><Link to={`/movie/${id}`}>{title}</Link></h2>
           <p>{year}</p>
           <p>{summary}</p>
           <ul>
