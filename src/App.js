@@ -1,10 +1,20 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import { Switch, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import Detail from './routes/Detail';
 //import PracCoin from './PracCoin.js';
-import Movie from './components/Movie.js';
 
 function App() {
-  return null;
+  return ( 
+      <Switch>
+        <Route path="/movie/:id">
+          <Detail />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+  );
 }
 
 export default App;
