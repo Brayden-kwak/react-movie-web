@@ -23,5 +23,22 @@ body{
         width: 50%;
         line-height: 1.5em;
         margin-top: 30px;
+        text-align: center;
+    }
+}
+
+.main-container{
+    .year{
+        font-size: $fontSize-year;
+        color: $fontColor;
+    }
+    .summary{
+        color: $fontColor;
+    }
+    .image{
+        color: $titleColor;
+        text-decoration-line:none;
+        text-decoration: none;
+        font-size: 1.3em;
     }
 }

@@ -25,5 +25,23 @@ body {
   width: 50%;
   line-height: 1.5em;
   margin-top: 30px;
+  text-align: center;
+}
+
+.main-container .year {
+  font-size: 1.5em;
+  color: #a9d7ff;
+}
+
+.main-container .summary {
+  color: #a9d7ff;
+}
+
+.main-container .image {
+  color: #00e5ff;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  text-decoration: none;
+  font-size: 1.3em;
 }
 /*# sourceMappingURL=Style.css.map */
