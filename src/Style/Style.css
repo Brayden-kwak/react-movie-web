@@ -1,0 +1,23 @@
+body {
+  margin: 0 100px;
+}
+
+.detail {
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  color: blue;
+}
+
+.detail img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.detail h1 {
+  color: #009dff;
+}
+/*# sourceMappingURL=Style.css.map */

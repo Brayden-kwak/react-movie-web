@@ -1,0 +1,19 @@
+$fontColor: blue;
+$titleColor: rgb(0, 157, 255);
+
+body{
+    margin: 0 100px;
+}
+.detail{
+    display:grid;
+    position:absolute;
+    width: 80%;
+    height: 80%;
+    color: $fontColor;
+    img{
+        justify-content: center;
+    }
+    h1{
+        color:$titleColor;
+    }
+}

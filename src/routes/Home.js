@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import Movie from '../components/Movie';
 
 function Home(){
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState(false);
 
   const getMovies = async () => {
@@ -14,6 +14,7 @@ function Home(){
     setMovies(json.data.movies);
     setLoading(false);
   };
+
   useEffect(() => {
     getMovies();
   }, []);
