@@ -1,5 +1,6 @@
 body {
   margin: 0 100px;
+  background-color: black;
 }
 
 .detail {
@@ -8,16 +9,21 @@ body {
   position: absolute;
   width: 80%;
   height: 80%;
-  color: blue;
-}
-
-.detail img {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  color: #a9d7ff;
+  justify-items: center;
 }
 
 .detail h1 {
-  color: #009dff;
+  color: #00e5ff;
+}
+
+.detail .year {
+  font-size: 1.5em;
+}
+
+.detail .desc {
+  width: 50%;
+  line-height: 1.5em;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=Style.css.map */

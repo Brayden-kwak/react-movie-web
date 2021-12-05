@@ -1,8 +1,10 @@
-$fontColor: blue;
-$titleColor: rgb(0, 157, 255);
+$fontColor: rgb(169, 215, 255);
+$titleColor: rgb(0, 229, 255);
+$fontSize-year: 1.5em;
 
 body{
     margin: 0 100px;
+    background-color: black;
 }
 .detail{
     display:grid;
@@ -10,10 +12,16 @@ body{
     width: 80%;
     height: 80%;
     color: $fontColor;
-    img{
-        justify-content: center;
-    }
+    justify-items: center;
     h1{
         color:$titleColor;
+    }
+    .year{
+        font-size:$fontSize-year;
+    }
+    .desc{
+        width: 50%;
+        line-height: 1.5em;
+        margin-top: 30px;
     }
 }

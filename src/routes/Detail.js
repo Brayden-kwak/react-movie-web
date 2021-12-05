@@ -29,7 +29,8 @@ function Detail(){
                 <div className="detail">
                     <h1>{detail.title}</h1>
                     <img src={detail.medium_cover_image}/>
-                    <p>{detail.description_full}</p>
+                    <p className="year">{detail.year}</p>
+                    <p className="desc">{detail.description_full}</p>
                 </div>
             )}
         </div>
